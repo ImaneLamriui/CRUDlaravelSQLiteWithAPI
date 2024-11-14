@@ -88,7 +88,7 @@ class MateriaController extends Controller
             'message' => 'Estudiante eliminado',
             'status' => 200
         ];
-        return response()->json($data, 200);
+       
     }
     public function update(Request $request, $id)
     {
@@ -119,6 +119,41 @@ class MateriaController extends Controller
 
     $materia ->save();
 
+    $data = [
+        'materia'=> $materia,
+        'status' => 200,
+        'message' => "Estudiante actualizado!"
+    ];
+    return response()->json($data, 200);
+}
+
+public function updatesParcial(Request $request, $id) {
+    $materia = materia::find($id);
+    if (!$materia) {
+        $data = [
+            'message' => 'Materia no encontrada',
+            'status'=> 404            ];
+            return response() ->json($request->all(), 200);
+    }
+    $validator = Validator::make($request->all(), [
+        'name' => 'max:255',
+        'language' => 'in:C,PHP,Python,Java,Go,JavaScript' 
+    ]);
+    if ($validator->fails()) {
+        $data = [
+            'message' => 'Error en la validación de los datos',
+            'errors' => $validator->errors(),
+            'status' => 400
+        ];
+        return response()->json($data, 400);
+    }
+    if ($request->has('name')) {
+        $materia->name = $request->name;
+    }
+    if ($request->has('language')) {
+        $materia->language = $request->language;
+    }
+    $materia->save();
     $data = [
         'materia'=> $materia,
         'status' => 200,
