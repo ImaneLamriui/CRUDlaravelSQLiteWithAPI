@@ -104,7 +104,7 @@ class MateriaController extends Controller
      
     $validator = Validator::make($request->all(), [
         'name' => 'required|max:255',
-        'language' => 'required|in:C,PHP,Python,Java,Go,JavaScript' 
+        'language' => 'required|in:C,PHP,Python,Java,Go,JavaScript,HTML5' 
     ]);
     if ($validator->fails()) {
         $data = [
