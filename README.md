@@ -3,8 +3,8 @@
 Esta app permite crear, leer, actualizar y eliminar datos de forma sencilla, y es una excelente opción para quienes quieran aprender sobre la creación de APIs con Laravel. 🎉
 
 
-https://www.canva.com/design/DAGW2Ob2Lck/XJXKPJzQh1r-mRpEAgrLkg/watch?utm_content=DAGW2Ob2Lck&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
+https://www.canva.com/design/DAGW2KbYVBU/JDTTBWnCruvo-mZXVi1HBg/watch?utm_content=DAGW2KbYVBU&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 🔹 Requerimientos en Visual Studio Code:
 
