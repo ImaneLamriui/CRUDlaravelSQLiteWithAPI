@@ -28,8 +28,7 @@ Para ejecutar la app en tu entorno local:
 Asegúrate de tener Laravel instalado y la extensión Laravel Snippets en Visual Studio Code es muy útil para desarrolladores que trabajan con Laravel, ya que proporciona fragmentos de código (snippets) predefinidos y abreviaturas para acelerar el desarrollo. 
 
 
-
-En una terminal, ejecuta el comando:
+## Pasos a seguir(prerequisitos: laravel y php instalados)
 
 Descargar codigo desde mi repositorio 
 
