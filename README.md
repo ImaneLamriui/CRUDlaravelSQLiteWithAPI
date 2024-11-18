@@ -4,8 +4,7 @@ Esta app permite crear, leer, actualizar y eliminar datos de forma sencilla, y e
 
 
 
-https://www.canva.com/design/DAGW2KbYVBU/JDTTBWnCruvo-mZXVi1HBg/watch?utm_content=DAGW2KbYVBU&utm_campaign=designshare&utm_medium=link&utm_source=editor
-
+https://www.canva.com/design/DAGWwqth9h4/eEfBgNTi3rDsa1meBY6LWw/watch?utm_content=DAGWwqth9h4&utm_campaign=designshare&utm_medium=link&utm_source=editor
 🔹 Requerimientos en Visual Studio Code:
 
 Para una mejor experiencia, recomiendo instalar las extensiones:
